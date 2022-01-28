@@ -1,0 +1,14 @@
+[Unit]
+    Description=DirtySocks Server
+    After=multi-user.target
+
+[Service]
+    Type=simple
+    Restart=always
+    WorkingDirectory=/root/appxbackend
+    ExecStart=/root/appxbackend/venv/bin /root/appxbackend/main.py
+    LimitNOFILE=100000
+    LimitNOFILESoft=100000
+
+[Install]
+    WantedBy=multi-user.target
