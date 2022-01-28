@@ -1,4 +1,4 @@
-# AppX Backend
+# Reverse socks proxy
 
 
 ## Local E2E tests
