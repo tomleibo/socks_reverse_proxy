@@ -1,12 +1,5 @@
 # AppX Backend
 
-## TO DOs
-- Fix logger
-- set reusable sockets on test to prevent test sync issues - setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
-- check that socket exceptions are handled everywhere (socket.error, socket.timeout, ConnectionResetError)
-- figure out how and when to do airplane mode
-- design UI
-- create docker-compose that will create a mongo DB for dev envs
 
 ## Local E2E tests
 - run main
@@ -24,9 +17,6 @@ curl --socks5 127.0.0.1:$PORT ipinfo.io
 - pip install infrastructure
 - start mongo
 
-
-## Keep alive documentation
-> TODO
 
 
 ## App and backend communication - sequence diagram
